@@ -23,7 +23,7 @@ public class PullServlet extends HttpServlet {
 
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<html><body>");
+        out.println("<html><head><title>Results</title></head><body>");
         out.println("<h1>" + message + "</h1>");
         out.println("</body></html>");
     }
